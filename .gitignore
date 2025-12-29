@@ -1,0 +1,15 @@
+# Ignore large data folders
+gtzan_h5/
+processed_h5/
+ui/
+.claude/
+nul
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+# Large model files (retrain with train_xgboost.py)
+*.pkl
+*.keras
+
